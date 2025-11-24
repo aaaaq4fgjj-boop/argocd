@@ -18,6 +18,5 @@ spec:
   - name: https
     protocol: TCP
     port: 443
-    targetPort: 443  # 변경 포인트
+    targetPort: 80
   type: LoadBalancer
-
